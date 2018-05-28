@@ -1,0 +1,1 @@
+cmd_/home/openwrt/blog/Basic/netlink/nlkernel/nlkernel.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.4.39-030439-generic/scripts/module-common.lds --build-id  -o /home/openwrt/blog/Basic/netlink/nlkernel/nlkernel.ko /home/openwrt/blog/Basic/netlink/nlkernel/nlkernel.o /home/openwrt/blog/Basic/netlink/nlkernel/nlkernel.mod.o
